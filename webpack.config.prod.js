@@ -6,7 +6,7 @@ var PurifyCSSPlugin= require('purifycss-webpack');
 module.exports = {
   entry: [
     './src/js/index.jsx',
-    './src/css/styles.scss'
+    './src/css/styles.css'
   ],
   output: {
     path: `${__dirname}/dist/js`,

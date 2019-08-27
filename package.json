@@ -5,12 +5,14 @@
   "main": "webpack.config.dev.js",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.config.dev.js --open",
-    "prod": "webpack --config webpack.config.prod.js -p"
+    "prod": "webpack --config webpack.config.prod.js -p",
+    "start": "node server/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
     "react": "^16.7.0",
     "react-dom": "^16.2.0"
   },
